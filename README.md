@@ -15,7 +15,7 @@ bash scripts/install-tools.sh
 ```
 
 ### Data preprocessing
-We use English and German as an example to show the data processing.  
+We use English and German as an example to show the data processing steps.  
 Download [de-en data](https://drive.google.com/file/d/1gsiysHgTcTkYfNJWd33IbMNCeDX62lY-/view?usp=sharing) and unzip it to the code root directory. Running the following command, the script will tokenize labeled training, valid and test data and convert them to BPE format. 
 ```
 bash prepare-clf-data.sh --src en --tgt de --reload_codes ./pretrain/pretrain_deen/codes_ende --reload_vocab ./pretrain/pretrain_deen/vocab_ende --product books (dvd or music)
