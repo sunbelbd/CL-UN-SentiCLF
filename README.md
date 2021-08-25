@@ -24,7 +24,7 @@ bash prepare-clf-data.sh --src en --tgt de --reload_codes ./pretrain/pretrain_de
 Similarly, monolingual unlabeled data can be processed and placed in ./data/processed/de-en folder. 
 
 ### Usage
-
+We also use English and German as an example to show how to use it.
 ```
 bash runPaddle_de.sh --clf_steps 50 --num_gpu 1 --exp_name unsupMTDiscCLF_ende --data_category books (dvd or music) --train_dis True --train_encdec True --train_bt True --clf_atten False --clf_mtv True --tokens_per_batch 600
 ```
