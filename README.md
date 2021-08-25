@@ -32,7 +32,7 @@ bash runPaddle_de.sh --clf_steps 50 --num_gpu 1 --exp_name unsupMTDiscCLF_ende -
 ## Other Recourses
 Shell scripts in ./scripts are some examples of how you submit jobs in SLURM. There are also scripts useful to downloading Wikipedia data, tokenize and binarize them. The pretrained checkpoints provided is intialized by XLM-100 and continuously pretrained using MLM objective on a mixture of monolingual and unlabeled product review data using [XLM](https://github.com/facebookresearch/XLM). 
 
-We also provide our original split [sentiment classification data] (https://drive.google.com/file/d/14aveASNOR1RlqmoOrZtaRg0xOmdvFmdM/view?usp=sharing) in case someone wants to use a different tokenizer or BPE dictionary. 
+We also provide our original split [sentiment classification data](https://drive.google.com/file/d/14aveASNOR1RlqmoOrZtaRg0xOmdvFmdM/view?usp=sharing) in case someone wants to use a different tokenizer or BPE dictionary. 
 
 ## Reference
 If you find the code useful, please consider citing it as follows:
